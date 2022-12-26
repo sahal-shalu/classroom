@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 60px;
+    border-bottom: 1px solid rgba(158, 147, 147, 0.5) ;
+    position: sticky ;
+    top: 0px;
+    background-color: white;
+    z-index: 10;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 0px;
+}
+
+.logo .menu{
+    font-size: 25px;
+}
+.logo img{
+    margin-left: 8px;
+}
+.logo p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 1.5rem;
+    
+}
+.options img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.items a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5094ed;
+    
+}
+.calendar, .todo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.items i{
+    font-size: 15px;
+}
+.card .header {
+    background: url("https://gstatic.com/classroom/themes/img_graduation.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    width:280px;
+    padding: 10px;
+    border-radius:9px  9px 0px 0px;
+    
+}
+
+.card,.card1 ,.card2,.card3,.card4,.card5, .card6,.card7{
+    color: white;
+    margin-left: 20px;
+    border-radius: 9px;
+    border: 1px solid rgba(158, 147, 147, 0.5) ;
+    height:280px;
+    width:300px;
+
+}
+
+.sub-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header p{
+    font-size: 12px;
+    
+}
+.collection{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+}
+
+.card1 .header {
+    background: url("https://gstatic.com/classroom/themes/img_code.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    border-radius:9px  9px 0px 0px;
+    
+}
+.card{
+    flex: 25%;
+    width:100%;
+}
+.card2 .header {
+    background: url("https://gstatic.com/classroom/themes/Geography.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+    border-radius:9px  9px 0px 0px;
+    
+}
+.card3 .header {
+    background: url("https://lh3.googleusercontent.com/hr_crs_themes/AIq9KHOK-YF0XhfGa-BtRW2AojWCWVQekv7wf1vGCeX8VbR0Oq97LETXmDHQ2LQsCfiT6aEr5qQCdhKfMs0JZAt9bZyd1BTOu9TiwHzdPcFzJ0DVn3YzFFY=s1280-fcrop64=1,26625dfdd0d4ffff");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+    border-radius:9px  9px 0px 0px;
+    
+}
+ .content{
+display: flex;
+height:120px;
+border-bottom: 1px solid rgba(158, 147, 147, 0.5) ;
+
+}
+.content img{
+    border-radius: 45px;
+    position: relative;
+    margin-top: -38px;
+    margin-left: 200px;
+    height:80px;
+    width: 80px;
+}
+
+.footer{
+    display: flex;
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+    gap: 10px;
+    justify-content: end;
+}
+.card4 .header {
+    background: url("https://gstatic.com/classroom/themes/img_code.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+    border-radius:9px  9px 0px 0px;
+    
+}
+
+.card5 .header {
+    background: url("https://gstatic.com/classroom/themes/img_breakfast.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+    border-radius:9px  9px 0px 0px;
+    
+}
+.card6 .header {
+    background: url("https://gstatic.com/classroom/themes/Writing.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+    border-radius:9px  9px 0px 0px;
+    
+}
+.card7 .header {
+    background: url("https://gstatic.com/classroom/themes/img_code.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+    border-radius:9px  9px 0px 0px;
+     
+}
+.card{
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding-right: 10px;
+}
+.card .header{
+    height: 100px;
+    width: 100%;
+}
+.header p:hover, .header h4:hover{
+    text-decoration: underline;
+}
+.header , .footer{
+    cursor: pointer;
+}
+
+
+
